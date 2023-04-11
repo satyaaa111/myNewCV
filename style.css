@@ -4,6 +4,21 @@ body{
    margin : 0;
    font-family: 'Merriweather', serif;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Styles for devices with a maximum width of 576 pixels */
+@media screen and (max-width: 576px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+
 p{
   line-height: 2;
 }
