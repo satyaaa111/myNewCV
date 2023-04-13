@@ -1,14 +1,16 @@
 body{
-  color: #40514e;
+   color: #40514e;
    text-align: center;
    margin : 0;
    font-family: 'Merriweather', serif;
 }
 
+
 @media screen and (max-width: 768px) {
   body {
     font-size: 14px;
   }
+  
 }
 
 /* Styles for devices with a maximum width of 576 pixels */
@@ -79,7 +81,7 @@ a:hover{
 h1{
   color: #66bfbf;
   font-family: 'Sacramento', cursive;
-  font-size: 5.625rem;/*100%=16px so 90px=562% and also 1rem=16px */
+  font-size: 562.5%;/*100%=16px so 90px=562% and also 1rem=16px */
   margin-top: 50px auto 0 auto; 
  
  }
@@ -111,14 +113,15 @@ h1{
 
 
 .bottom-cloud{
-  bottom: 300px;
-  left: 250px;
   position: absolute;
+  bottom: 50%;
+  left: 20%;
+  
  }
 .top-cloud{
   position: absolute;
-  right: 300px ;
-  top: 40px;
+  right: 20% ;
+  top: 10%;
 }
 
 .developer{
